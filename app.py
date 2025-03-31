@@ -77,7 +77,7 @@ def save_translation(text, original_filename=None):
     return translated_filename
 
 # Giao diện Streamlit
-st.title("Dịch văn bản tự động")
+st.title("Dịch tiểu thuyết từ Tiếng Trung sang Tiếng Việt!")
 
 uploaded_file = st.file_uploader("Tải lên file .txt hoặc .docx", type=["txt", "docx"])
 input_text = st.text_area("Hoặc dán văn bản vào đây:")
